@@ -1,0 +1,136 @@
+body{
+    background-color: #f7ecde;
+}
+
+
+.header{
+    background-color: rgb(254, 194, 96);
+    font-family: "Pacifico", cursive;
+    width: 275px;
+    text-align: center;
+    position: relative;
+    margin: 100px auto 50px;
+    height:20px;
+
+}
+
+.header h1{
+    font-size: 50px;
+    transform: translate(0,-70%);
+    -webkit-transform: translate(0,-70%);
+    -moz-transform: translate(0,-70%);
+    -ms-transform: translate(0,-70%);
+    -o-transform: translate(0,-70%);
+}
+
+
+.header .behind{
+    background-color: rgb(254, 194, 96);
+    position: absolute;
+    width: 275px;
+    height:20px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.hr{
+    border-style: dotted;
+    border-width: 1px;
+}
+
+
+.header:hover .behind{
+    transform: translate(0,-100%);
+    -webkit-transform: translate(0,-100%);
+    -moz-transform: translate(0,-100%);
+    -ms-transform: translate(0,-100%);
+    -o-transform: translate(0,-100%);
+}
+
+
+span.book{
+    color: rgb(70, 165, 90);
+    font-size: 25px;
+    font-family: "Righteous", cursive;
+}
+span.your{
+color: rgb(120, 168, 82);
+font-size: 25px;
+font-family: "Righteous", cursive;
+}
+span.favourite{
+color: rgb(141, 170, 79);
+font-size: 25px;
+font-family: "Righteous", cursive;
+}
+span.sites{
+color: rgb(163, 171, 76);
+font-size: 25px;
+font-family: "Righteous", cursive;
+}
+
+.book1{
+    color: rgb(70, 165, 90);
+}
+
+.book2{
+    color: rgb(163, 171, 76);
+
+}
+
+
+
+                    /*               ?    form                     */
+                    /*               ?   form                     */
+                    /*               ?  form                     */
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.container .form{
+   display: flex;
+   flex-direction: column;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: orange;
+    outline: 0;
+    box-shadow: 0 0 0 .10rem orange;
+}
+
+button.formBtn{
+    background-color: #d1512d;
+    transition: 0.3s;
+    border: none;
+    color: white;
+    margin: auto;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+button.formBtn:hover{
+    background-color: #c04523;
+}
+
+
+
+/*          ?            table                                */
+/*          ?            table                                */
+/*          ?            table                                */
+
